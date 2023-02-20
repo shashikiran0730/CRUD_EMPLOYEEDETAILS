@@ -1,0 +1,43 @@
+/* export const Welcome=()=>{
+    return (
+        <div>
+            hello world
+                        </div>
+    )
+}import logo from "./logo.svg";
+import "./App.css";
+import { Register } from "./Register/Register";
+import { Login } from "./Login/Login";
+import { useReducer } from "react";
+var intialstate = "shashi";
+function reducer(state, action) {
+  if (action.type == "men") {
+    return (intialstate = "shashikiran Reddy");
+  }
+  if (action.type == "women") {
+    return (intialstate = "abhinaya Reddy");
+  }
+}
+
+const App = () => {
+  const [state, dispatch] = useReducer(reducer, intialstate);
+  return (
+    <div>
+      <div>{state}</div>
+      <button
+        onClick={() => {
+          dispatch({ type: "men" });
+        }}
+      >
+        Men
+      </button>
+      <button
+        onClick={() => {
+          dispatch({ type: "women" });
+        }}
+      >
+        WOMEN
+      </button>
+    </div>
+  );
+}; */
