@@ -1,0 +1,38 @@
+
+input {
+    width: 200px;
+    padding: 11px;
+    margin: 3px;
+    border-radius: 15px;
+}
+.container-1{
+   margin-left: 570px;
+   margin-top: 40px;
+}
+.btn-1{
+    background-color: silver;
+    padding: 8px;
+    width: 200px;
+    margin-left: 16px;
+    margin-top: 7px;
+}
+.container-2{
+    /* border: 2px solid black; */
+    width: 500px;
+    margin: 5px;
+}
+.btn-2{
+background-color: rgb(255, 0, 0);
+padding: 6px;
+
+}
+table{
+    margin-top: 3px;
+}
+td,th{
+    width: 150px;
+    /* border: 2px black solid; */
+}
+th{
+text-align: left;
+}
