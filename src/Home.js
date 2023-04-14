@@ -47,12 +47,11 @@ export const Home = () => {
     b = b.filter((i) => i.id != id);
     axios.delete("http://localhost:3000/employeedetails/" + id);
     setEmpDetails([...b]);
-    setisIdExist(false)
+    setisIdExist(false);
   };
 
   return (
     <div className="container-1">
-       
       <input type="text" placeholder="employee name" ref={empname}></input>
       <br></br>
       <input type="text" placeholder="employeeid" ref={empId}></input>
