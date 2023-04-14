@@ -52,9 +52,7 @@ export const Home = () => {
 
   return (
     <div className="container-1">
-      <video  > 
-        <source src="https://www.youtube.com/watch?v=xfcJTMLy3HU" type="video/mp4"></source>
-      </video>
+       
       <input type="text" placeholder="employee name" ref={empname}></input>
       <br></br>
       <input type="text" placeholder="employeeid" ref={empId}></input>
